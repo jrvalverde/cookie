@@ -1,0 +1,50 @@
+The programs in this directory allow you to access the cookie file.
+They will access one cookie at random and display it in their standard
+output.
+
+The program 'cook' will display the cookie in plain text format.
+
+The program 'cookie-cgi' is a cgi helper application for HTTP daemons
+and generates HTML output.
+
+To install the programs you must first edit the Makefile, giving the
+appropriate pathnames and run make.
+
+Without arguments 'make' will build the executables in the current
+directory.
+
+'make all' is the same as 'make': it just builds the executables.
+
+'make install' will install everything: the executables, screen backgrounds,
+signature picture and database. Since the database is big, it may take a
+long while to complete.
+
+'make installbin' will only install the binaries, which is handy when you
+have already installed the data files and want to make changes or debug
+the programs.
+
+'make uninstall' will remove all the installed files. Please, be sure you
+no longer need any of them.
+
+CREDITS: most of the backgrounds have been picked from the net. Well, actually
+all of them. Wonderful thing the net. Really. Amazing.
+
+	See the file '0readme' for credits on the database.
+
+	The programs where made by me, Jose R. Valverde, to provide my 
+colleagues at work with some access to that hughe file of citations that
+so much impressed them. Since I was leaving, I thought, what the heck,
+why not leave behind a small 'souvenir'?
+
+	That's why there is a picture popping out from time to time. There's
+nothing against removing it if you don't like it.
+
+DISCLAIMER: the programs are unsupported. And all the usual disclaimers 
+apply: I don't assume any responsibility either express or implicit or of
+any type at all regarding anything at all relative to these programs and
+son on, etc, etc, etc...
+
+			Have fun!
+
+				jr
+
